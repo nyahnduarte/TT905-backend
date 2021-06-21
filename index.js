@@ -24,8 +24,8 @@ const Michael_Jackson  = '{ "name":"Michael_Jackson", "type":"POP", "about":"Art
 
 
 // array simulando um banco de dados, com os objeto Json
-const spotify = [ JSON.parse(Racionais_MCs), 
-                  JSON.parse(Sabotage),
+const spotify = [ JSON.parse(Racionais_MCs),
+                 JSON.parse(Sabotage),
                   JSON.parse(Metallica),
                   JSON.parse(Nirvana),
                   JSON.parse(Turma_do_pagode),
