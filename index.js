@@ -13,7 +13,7 @@ app.listen(process.env.PORT || 3000);
 
 // strings para o banco de dados
 const Racionais_MCs = '{ "name":"Racionais_MCs", "type":"RAP", "about":"Grupo paulista de origem periférica que se destacou desde seu inicio aos dias de hoje.." }';
-const Sabotage = '{ "name":"Sabotage", "type":"RAP", "about":"Artista paulista periférico que trouxe mensagens que atigem a todos mesmo após sua morte." }';
+const sabotage = '{ "name":"Sabotage", "type":"RAP", "about":"Artista paulista periférico que trouxe mensagens que atigem a todos mesmo após sua morte." }';
 const Metallica = '{ "name":"Metallica", "type":"Rock", "about":"Banda internacionalmente reconhecida pelo seu estilo Metal." }';
 const Nirvana = '{ "name":"Nirvana", "type":"Rock", "about":"Banda internacionalmente conhecida pelos seus sons Grunge" }';
 const Turma_do_pagode = '{ "name":"Turma_do_pagode", "type":"Pagode", "about":"Grupo que marcou o pagode nacional com suas musicas dançantes e animadas;" }';
@@ -25,7 +25,7 @@ const Michael_Jackson  = '{ "name":"Michael_Jackson", "type":"POP", "about":"Art
 
 // array simulando um banco de dados, com os objeto Json
 const spotify = [ JSON.parse(Racionais_MCs), 
-                  JSON.parse(Sabotage),
+                  JSON.parse(sabotage),
                   JSON.parse(Metallica),
                   JSON.parse(Nirvana),
                   JSON.parse(Turma_do_pagode),
