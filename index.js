@@ -24,7 +24,7 @@ const Michael_Jackson  = '{ "name":"Michael_Jackson", "type":"POP", "about":"Art
 
 
 // array simulando um banco de dados, com os objeto Json
-const spotify = [ JSON.parse(Racionais_MCs),JSON.parse(Sabotage),JSON.parse(Metallica),JSON.parse(Nirvana),JSON.parse(Turma_do_pagode),JSON.parse(Exaltassamba), JSON.parse(Ludmilla),JSON.parse(Bob_Marley),JSON.parse(Michael_Jackson)];
+const spotify = [ JSON.parse(Racionais_MCs),JSON.parse(Sabotage),JSON.parse(Metallica),JSON.parse(Nirvana),JSON.parse(Turma_do_pagode),JSON.parse(Exaltassamba), JSON.parse(Ludmilla),JSON.parse(Bob_Marley),JSON.parse(Michael_Jackson)]
 // novo endpoint com uma explicação inicial
 app.get('/',
     function(req, res){
